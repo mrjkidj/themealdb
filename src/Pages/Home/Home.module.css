@@ -1,7 +1,30 @@
-.home_search{
-    padding: 20px 0;
-    display: flex;
+.home_search {
+    padding        : 20px 0;
+    display        : flex;
     justify-content: center;
-    border-top: 1px solid #fff;
-    
+    border-top     : 1px solid #fff;
+    border-bottom  : 1px solid #fff;
+
+}
+
+.home_search form {
+    display: flex;
+}
+
+.home_search input {
+    height       : 35px;
+    width        : 350px;
+    border-radius: 5px 0 0 5px;
+    border-left  : none;
+    font-size    : 22px;
+    outline      : none;
+    border       : none;
+}
+
+.home_search button {
+    height       : 35px;
+    width        : 50px;
+    border-radius: 0 5px 5px 0;
+    cursor       : pointer;
+    border       : none;
 }
